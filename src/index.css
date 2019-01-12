@@ -1,0 +1,38 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 10px;
+  height: 10px;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  border-color: currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.5s ease;
+}
+
+.iconOpened {
+  transform: rotate(135deg);
+}
+
+.transitions {
+  transition: height 0.5s ease;
+}
+
+.spoiler {
+  background: repeating-linear-gradient(
+    45deg,
+    #eff2f5,
+    #eff2f5 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.container {
+  height: 50px;
+  overflow: hidden;
+}
